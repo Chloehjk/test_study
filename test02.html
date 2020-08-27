@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>layout03</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,400;1,500&display=swap');
+
+            body{
+                margin: 0px;
+                padding: 0px;
+                background-image: url('image/background.jpg');
+            }
+
+            p {
+                margin: 0;
+            }
+            
+            #container{
+                width: 1000px;
+                margin: 0px auto;
+            }
+            
+            #top{
+                width: 1000px;
+                height: 200px;
+                margin-top: 100px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 900;
+                font-style: italic;
+                font-size: 15px;
+                color: white;
+            }
+            
+            #top p{
+                text-align: center;
+                margin-top: 25px;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 35px;
+                color: white;
+            }
+
+            #middle{
+                width: 1000px;
+                margin: 0px auto;
+                float: left;
+            }
+            .time{
+                width: 20%;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                color: white;
+                float: left;
+            }
+            
+            .time p:nth-child(1){
+                width: 20%;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 35px;
+                color: white;
+            }
+            .time p:nth-child(2){
+                width: 20%;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                color: white;
+            }
+            #bottom{
+                clear: both;
+                width: 1000px;
+            }
+            
+            #bottom img{
+                width: 20%;
+            }
+        </style>
+
+	</head>
+	<body>
+        <div id="container">
+            <div id="top">
+            STAY TUNED
+                <p>
+                New Website
+                <br>Launching Soon
+                </p>
+            </div>
+            <div id="middle">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>94</th>
+                            <th>06</th>
+                            <th>24</th>
+                            <th>55</th>
+                            <th>36</th>
+                        <tr/>
+                        <tr>
+                            <th>weeks</th>
+                            <th>days</th>
+                            <th>hours</th>
+                            <th>minutes</th>
+                            <th>seconds</th>
+                        <tr/>
+                    </tbody>
+                </table>              
+            </div>
+            <div id="bottom">
+                <table>
+                    <tr>
+                        <th><img src="image/icon_1.png" alt="company_image"/></th>
+                        <th><img src="image/icon_2.png" alt="company_image"/></th>
+                        <th><img src="image/icon_3.png" alt="company_image"/></th>
+                        <th><img src="image/icon_4.png" alt="company_image"/></th>
+                        <th><img src="image/icon_5.png" alt="company_image"/></th>
+                    </tr>    
+                </table>
+            </div>
+        </div>
+	</body>
+</html>

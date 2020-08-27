@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>layout02</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;500;600&display=swap');
+
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #container{
+                width: 1000px;
+                margin: 0px auto;
+            }
+
+            #top{
+                width: 1000px;
+                margin: 0px auto;
+                margin-top: 30px;
+                margin-botton: 50px;
+            }
+            
+            #header{
+                font-size: 45px;
+                font-family: 'Merriweather Sans', sans-serif;
+                font-weight: 600;
+                letter-spacing: 100;
+                text-align: center;
+            }
+            
+            #under_header{
+                margin-top: 20px;
+                font-size: 18px;
+                font-family: 'Merriweather Sans', sans-serif;
+                font-weight: 300;
+                letter-spacing: 1px;
+                color: #6E6E6E;
+                text-align: center;
+            }
+
+            #middle{
+                width: 1000px;
+                margin: 0px auto;
+                margin-top: 80px;
+                text-align: center;
+                vertical-align: middle;
+            }
+                       
+            #marketing, #movies, #websites, #strategy{
+                width: calc(25% - 20px);
+                font-size: 16px;
+                font-family: 'Merriweather Sans', sans-serif;
+                font-weight: 500;
+                color: black;
+                float: left;
+                margin: 0px 10px 0px 10px;
+            }
+
+                       
+            #marketing p, #movies p, #websites p, #strategy p{
+                font-size: 13px;
+                font-weight: 300;
+                letter-spacing: 1px;
+                color: #6E6E6E;
+            }
+
+            #marketing div, #movies div, #websites div, #strategy div{
+                margin-top: 30px;
+                margin-botton: 30px;
+            }
+            
+        </style>
+
+	</head>
+	<body>
+        <div id="container">
+            <div id="top">
+                <div id="header">
+                Four Col Process With Image
+                </div>
+                <div id="under_header">
+                If you need to display your creative work online with a robust canvas of options and with not
+                <br/>a pixel out of place, Mi UI kit is a great choice! It's undoubtedly a high-performance UI Kit.
+                <br/>which tells a story through imagery, fonts and layouts.
+            </div>
+            <div id="middle">
+                <div id="marketing">
+                    <img src="image/image_1.png" alt="marketing_image" width="150" height="150"/>
+                    <div>
+                    MARKETING
+                    </div>
+                    <p>
+                    If you need  to display your creative
+                    <br/>work online with a robust canvas of
+                    <br/>options and with not a pixel out of
+                    <br/>place. Mi UI Kit is a great choice!
+                    </p>
+                </div>
+                <div id="movies">
+                    <img src="image/image_2.png" alt="movies_image" width="150" height="150"/>
+                    <div>
+                    MOVIES
+                    </div>
+                    <p>
+                    If you need to display your creative
+                    <br/>work online with a robust canvas of
+                    <br/>options and with not a pixel out of
+                    <br/>place. Mi UI Kit is a great choice!
+                    </p>
+                </div>
+                <div id="websites">
+                    <img src="image/image_3.png" alt="websites_image" width="150" height="150"/>
+                    <div>
+                    WEBSITES
+                    </div>
+                    <p>
+                    If you need to display your creative
+                    <br/>work online with a robust canvas of
+                    <br/>options and with not a pixel out of
+                    <br/>place. Mi UI Kit is a great choice!
+                    </p>
+                </div>
+                <div id="strategy">
+                    <img src="image/image_4.png" alt="strategy_image" width="150" height="150"/>
+                    <div>
+                    STRATEGY
+                    </div>
+                    <p>
+                    If you need to display your creative
+                    <br/>work online with a robust canvas of
+                    <br/>options and with not a pixel out of
+                    <br/>place. Mi UI Kit is a great choice!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Serach News or Cafe</title>
+	</head>
+	<body>
+        <div>
+            <form action="https://search.naver.com/search.naver" method="get">
+                <h3><label for='uri'>네이버 뉴스, 카페 검색 폼<label/></h3>
+                <br/>뉴스 또는 카페를 선택해주세요
+                <select name='where'>
+                    <option value="news">뉴스</option>
+                    <option value="article">카페</option>
+                </select>
+                <br/>검색어
+                <input id="query" type="text" name='query'/>
+                <br/>시작일
+                <input id="ds" type="text" name='date_from'/>
+                <br/>종료일
+                <input id="de" type="text" name='date_to'/>
+                <input type="submit" value="검색"/>
+            </form>
+        </div>
+	</body>
+</html>
+
+
+
